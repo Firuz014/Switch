@@ -1,0 +1,628 @@
+:root{
+    --yasil: #53d153;
+}
+
+header{
+    height: 100vh;
+    background: url(../img/headerbg.jpg) center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav,#title{text-align: center;}
+
+nav menu li{padding: 3px 0;}
+
+nav menu li a {
+    font: 1em "Proxima Nova";
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px 0;
+    transition: all .3s;
+    white-space: nowrap; 
+}
+
+nav menu li a:hover, .active {
+    font: bold 1em "Proxima Nova";
+}
+
+#search{display: flex;}
+
+#search input,button{
+    background: #fffc;
+    border: none;
+    outline: none;
+}
+
+#search input{border-radius: 10px 0 0 10px;  padding: 5px 15px;}
+#search button{border-radius: 0 10px 10px 0;}
+
+h1{
+    font: bold 2em Montserrat;
+    color: #ffffff;
+    text-align: center;
+}
+
+h2{
+    font: 1.2em "Montserrat";
+    letter-spacing: 4px;
+    color: #828181;
+    text-align: center;
+}
+
+h3{
+    font: bold 1.5em 'Proxima Nova';
+    color: #828181;
+    padding: 1.5em 0 0 0;
+}
+
+h4{
+    font: 1em 'Montserrat';
+    letter-spacing: 3px;
+    color: #dddddd;
+}
+
+h5 {
+    font: 1em Montserrat;
+    color: #cccccc;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+}
+
+h6{
+    font: 1em "Proxima Nova";
+    color: #ffffff;
+}
+
+hr{
+    width: 2.7em;
+    height: 2px;
+}
+
+ #title button {
+    font: 1.4em "Proxima Nova";
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 23px;
+    background-color: #53d153;
+ }
+
+ #scroll {
+    background: #fffc;
+    border-radius: 1em;
+    margin: 10px 0;
+}
+
+#scroll a {
+    display: inline-block;
+    font: 1em "Proxima Nova";
+    color: #111111;
+    padding: 8px 17px;
+}
+
+.bgag {background: #fff;}
+.bgyasil {background: #54d154;}
+.bgboz { background: #f2f1f1;}
+.hryasil { background: #1f7b1f;}
+.hrboz {background: #818181;}
+
+#sec1 {padding: 10px 0;}
+
+section p{
+    font: 1em 'Myriad Pro';
+    color: #b7b3b3;
+    text-align: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+}
+
+article .icon{
+    background-color: #e0f3e0;
+    width: 142px;
+    height: 142px;
+    border-radius: 1.75em;
+    display: flex;
+    align-items: center;
+}
+
+article .icon i {
+    margin: auto;
+    color: var(--yasil);
+    font-size: 4.5em;
+}
+article p {padding: 20px;}
+
+article button {
+    background-color: var(--yasil);
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: .9em;
+}
+
+#sec2 { padding: 10px 0; }
+
+#btn{
+    display: flex;
+    justify-content: center;
+    font: 1em 'Proxima Nova';
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+#btn button { 
+    border: 1px solid #1f7b1f;
+    color: #1f7b1f;
+    background-color: #fff;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.gallery img { 
+    margin: 10px 0 0 0 ;
+    border-radius: 5px;
+}
+
+
+#btn1 {
+    display: flex;
+    justify-content: center;
+    padding:0 0 1.9em 0;
+}
+
+#btn1 button {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: #1f7b1f;
+    color: #fff;
+    transition: all .3s;
+}
+
+#btn1 button:hover {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #1f7b1f;
+}
+
+#btn button:first-child { border-radius: 20px 0 0 20px; }
+#btn button:last-child { border-radius: 0 20px 20px 0; }
+#btn button.active2 { background-color: #1f7b1f; color: #fff;}
+#btn button {padding: 7px 12px;}
+.txtyasil {color: #1f7b1f;}
+.hryasil {background-color: #1f7b1f; border: none;}
+.hrboz { background-color: #818181; border: none;}
+.hrag {background-color: #fff; border: none;}
+
+
+
+#sec3{padding: 10px 0;}
+
+.slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 65px 0 20px 0 ;
+}
+
+.slider h5{
+    font: 1em 'Proxima Nova';
+    color: #444444;
+    text-align: center;
+}
+
+.mrHelp{
+    display: flex;
+    justify-content: center;
+}
+
+#sec4{padding: 30px 0 60px 0;}
+
+.brends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brends img {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+#btn3{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+#btn3 button {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: #dddcdc;
+    color: #a59d9d;
+    transition: all .3s;
+}
+
+#btn3 button:hover {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: #a59d9d;
+    color: #dddcdc;
+}
+
+#sec5{ padding: 10px 0 0 0;}
+
+#sec5 h2{
+    font: 1.4em Montserrat;
+    letter-spacing: 4px;
+    color: #207b20;
+}
+
+#sec5 p {
+    font: 1em 'Open Sans';
+    color: #2b9b2b;
+}
+
+.actors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 60px 0;
+}
+
+.actors img {
+    width: 300px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.actors1, .actors2, .actors3, .actors4, .actors5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actors2 img {
+    background: #fff;
+}
+
+#btn4{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#btn4 button {
+    padding: 2px 5px;
+}
+
+#btn4 button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#btn4 button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#btn4 button img {
+    width: 20px;
+    height: 20px;
+}
+
+
+#btn5 {
+    background-color: #3eba3e;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#btn5 button {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: var(--yasil);
+    color: #fff;
+    box-shadow: -5px 6px 4px 0px #1f7b1f;
+    transition: all .3s;
+}
+
+#btn5 button:hover {
+    padding: 10px 15px;
+    border-radius: 16px;
+    background-color: var(#fff);
+    color: #1f7b1f;
+    box-shadow: -5px 6px 4px 0px #fff
+}
+
+
+
+#sec6 {
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+.postImg img{
+    max-width: 100%;
+}
+
+.postContent {
+    padding: 10px 0;
+}
+
+#sec6 form {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #aaa;
+    padding: 10px 0;
+}
+
+footer .channels {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0;
+    align-items: center;
+}
+
+footer .channels img {
+    max-width: 50%;
+    padding: 15px 0;
+}
+
+
+@media only screen and (min-width:768px) {
+
+    .container{
+        max-width: 1240px;
+        margin: auto;
+        padding:  4.5em;
+    }
+
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
+    nav menu {
+        display: flex;
+        order: -1;
+        flex: 1 1 40%;
+    }
+
+    nav menu li {padding: 0 10px;}
+
+    #logo{flex: 1 1 20%;}
+
+    #search { 
+        flex: 1 1 40%; 
+        justify-content: end;
+    }
+
+    nav menu li a:hover, .active {
+    font: bold 1em "Proxima Nova";
+    border-top: 5px solid var(--yasil);
+    }
+
+    h1{
+        font-size: 3.5em;
+        padding-bottom: 40px;
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .row article{
+        text-align: center;
+    }
+
+
+    .gallery{
+        max-width: 920px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .gallery img {
+        max-width: 159px;
+        max-height: 159px;
+        padding: 15px 7px;
+        border-radius: 30px;
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        max-width: 600px;
+        margin: auto;
+        padding: 65px 0 20px 0;
+    }
+
+    .slider h5{
+        font: 1em 'Proxima Nova';
+        color: #444444;
+        text-align: center;
+    }
+
+    .mrHelp{
+        display: flex;
+        justify-content: center;
+        padding: 0 0 65px 0;
+    }
+
+    .brends{
+        max-width: 600px;
+        margin: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .brends img{
+        max-width: 200px;
+    }
+
+    .actors{
+        max-width: 980px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .actors img {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+    }
+
+    .actors hr{
+        width: 2px;
+        height: 77px;
+        background-color: #1f7b1f;
+        border: none;
+    }
+
+    #sec6 {
+        background-color: #333;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+
+    .posts{
+        display: flex;
+        padding: 5px 0;
+    }
+
+    .postImg img{
+        width: 55px;
+        height: 55px;
+    }
+
+    .postContent {
+        padding: 0 0 0 10px;
+    }
+
+    .postContent a {
+        display: inline-block;
+        border-radius: 10px;
+        padding: 5px 10px;
+        color: #fff;
+        text-transform: uppercase;
+        font: .8em "Montserrat";
+    }
+
+    #sec6 article {
+        max-width: 33.33%;
+    }
+
+    #sec6 article p {
+        padding: 2px;
+    }
+
+    #sec6 form {
+        display: flex;
+    }
+
+    #sec6 form input, textarea{
+        outline: none;
+        padding: 5px;
+    }
+
+    footer .channels {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 24px 0;
+    }
+
+    footer .channels img {
+        max-width: 50%;
+    }
+    
+
+
+
+
+    
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .staf1{
+    background: url(../img/staff1.png) center/cover;
+    width: 125px;
+    height: 130px;
+        border-radius: 50%;
+    }
+
+    .staf2{
+        background: url(../img/staff2.png) center/cover #fff;
+        width: 125px;
+        height: 130px;
+        border-radius: 50%;
+    }
+
+    .staf3{
+        background: url(../img/staff3.png) center/cover;
+        width: 125px;
+        height: 130px;
+        border-radius: 50%;
+    }
+
+    .staf4{
+        background: url(../img/staff4.png);
+        background-position: 40% 10%;
+        width: 125px;
+        height: 130px;
+        border-radius: 50%;
+    }
+
+    .staf5{
+        background: url(../img/staff5.png) center/cover;
+        width: 125px;
+        height: 130px;
+        border-radius: 50%;
+    } */
